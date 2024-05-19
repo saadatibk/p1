@@ -19,16 +19,16 @@ Replace `<inputFilePath>` with the path to the text file you want to compress, a
 
 ## Example
 
-#Suppose you have a text file named `mytext.txt` containing the following text:
+Suppose you have a text file named `mytext.txt` containing the following text:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper magna nec tellus maximus, at consequat justo semper. Nullam facilisis magna ut ligula congue, in luctus ex pharetra. Nullam dignissim fermentum odio, eu vehicula justo commodo vitae. Vestibulum at varius justo. Duis ut malesuada nisi. Integer maximus diam in lorem fringilla, ut fringilla elit ultrices. Donec eget odio et nibh ullamcorper suscipit a id libero.
 
-#To compress this text file, you can run: 
+To compress this text file, you can run: 
 java TextCompressor mytext.txt compressed.sc
 
 This will compress the text file `mytext.txt` and save the compressed output to a file named `compressed.sc`.
 
-#To decompress the compressed file, you can run: 
+To decompress the compressed file, you can run: 
 java TextCompressor compressed.sc decompressed.txt
 
 This will decompress the compressed file `compressed.sc`.
