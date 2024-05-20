@@ -63,8 +63,8 @@ public class TextCompressor {
     }
 
     public static void main(String[] args) {
-        String inputFilePath = "/Users/saadatibakova/Desktop/p1/TextCompressor/mytext.txt";
-        String compressedFilePath = "/Users/saadatibakova/Desktop/p1/TextCompressor/compressed.sc";
+        String inputFilePath = "TextCompressor/mytext.txt";
+        String compressedFilePath = "TextCompressor/compressed.sc";
 
         try {
             String originalData = readTextFile(inputFilePath);
